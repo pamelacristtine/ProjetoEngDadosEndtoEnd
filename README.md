@@ -1,6 +1,6 @@
 # Projeto 01
 
-Base de dados utilizada disponível em: [Portal Brasileiro de Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/violencia-contra-mulher)
+Base de dados utilizada disponível em: [Portal Brasileiro de Dados Abertos](https://dados.mg.gov.br/dataset/dados_violencia_mulheres_ses)
 
 * Um pouco sobre a base de dados: <br>
-     Dados de registros de violência contra mulher e femínicidio no estado de Minas Gerais nos anos de: 2019, 2020, 2021, 2022 e 2023(dados       até o més de julho).
+     Dados de registros de violência contra mulher no estado de Minas Gerais nos anos de: 2018, 2019, 2020, 2021, 2022 e 2023.
