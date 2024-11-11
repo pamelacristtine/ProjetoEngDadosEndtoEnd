@@ -1,0 +1,82 @@
+{
+	"name": "Sql_Server",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlServerLink",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Dados Internos"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "DT_NOTIFIC",
+				"type": "date"
+			},
+			{
+				"name": "DT_NASC",
+				"type": "date"
+			},
+			{
+				"name": "IDADE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RACA",
+				"type": "varchar"
+			},
+			{
+				"name": "MUNICIPIO",
+				"type": "varchar"
+			},
+			{
+				"name": "LOCAL_OCOR",
+				"type": "varchar"
+			},
+			{
+				"name": "OUT_VEZES",
+				"type": "varchar"
+			},
+			{
+				"name": "LES_AUTOP",
+				"type": "varchar"
+			},
+			{
+				"name": "VIOL_FISIC",
+				"type": "varchar"
+			},
+			{
+				"name": "VIOL_PSICO",
+				"type": "varchar"
+			},
+			{
+				"name": "VIOL_SEXU",
+				"type": "varchar"
+			},
+			{
+				"name": "NUM_ENVOLV",
+				"type": "varchar"
+			},
+			{
+				"name": "AUTOR_SEXO",
+				"type": "varchar"
+			},
+			{
+				"name": "ORIENT_SEX",
+				"type": "varchar"
+			},
+			{
+				"name": "IDENT_GEN",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Violencia_Domestica_MG"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

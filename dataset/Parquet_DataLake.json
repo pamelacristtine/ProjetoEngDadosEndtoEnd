@@ -1,0 +1,86 @@
+{
+	"name": "Parquet_DataLake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataLake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Dados Internos"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "part-00000-tid-2556637834086667453-fdf1accd-8877-4501-9708-067648f67961-3-1-c000.snappy.parquet",
+				"folderPath": "silver/dataset_viol_domest_mg",
+				"container": "violenciamulhermg"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "DT_NOTIFIC",
+				"type": "DATE"
+			},
+			{
+				"name": "DT_NASC",
+				"type": "DATE"
+			},
+			{
+				"name": "IDADE",
+				"type": "INT32"
+			},
+			{
+				"name": "RACA",
+				"type": "UTF8"
+			},
+			{
+				"name": "MUNICIPIO",
+				"type": "UTF8"
+			},
+			{
+				"name": "LOCAL_OCOR",
+				"type": "UTF8"
+			},
+			{
+				"name": "OUT_VEZES",
+				"type": "UTF8"
+			},
+			{
+				"name": "LES_AUTOP",
+				"type": "UTF8"
+			},
+			{
+				"name": "VIOL_FISIC",
+				"type": "UTF8"
+			},
+			{
+				"name": "VIOL_PSICO",
+				"type": "UTF8"
+			},
+			{
+				"name": "VIOL_SEXU",
+				"type": "UTF8"
+			},
+			{
+				"name": "NUM_ENVOLV",
+				"type": "UTF8"
+			},
+			{
+				"name": "AUTOR_SEXO",
+				"type": "UTF8"
+			},
+			{
+				"name": "ORIENT_SEX",
+				"type": "UTF8"
+			},
+			{
+				"name": "IDENT_GEN",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
