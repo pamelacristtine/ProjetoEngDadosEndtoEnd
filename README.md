@@ -7,7 +7,7 @@ Base de dados utilizada disponível em: [Portal Brasileiro de Dados Abertos](htt
 
 * Arquitetura: <br>
 
-![](figure/fechamento_hist_treino_teste.png)
+![](figure/arquitetura.png)
     
 
 * Power BI: <br>
