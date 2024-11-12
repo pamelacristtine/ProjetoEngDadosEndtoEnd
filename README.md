@@ -6,6 +6,8 @@ Base de dados utilizada disponível em: [Portal Brasileiro de Dados Abertos](htt
      Dados de registros de violência contra mulher no estado de Minas Gerais nos anos de: 2018, 2019, 2020, 2021, 2022 e 2023.
 
 * Arquitetura: <br>
+
+![](figure/fechamento_hist_treino_teste.png)
     
 
 * Power BI: <br>
